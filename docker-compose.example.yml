@@ -33,8 +33,8 @@ services:
     environment:
       - MYSQL_DATABASE=standard_notes_db
       - MYSQL_USER=std_notes_user
-      - MYSQL_ROOT_PASSWORD=832976
-      - MYSQL_PASSWORD=832976
+      - MYSQL_ROOT_PASSWORD=6d5eb4fc0387f312327b013fef5ac2a4385cc8ba067f4cf6df0db33fac80558f
+      - MYSQL_PASSWORD=6d5eb4fc0387f312327b013fef5ac2a4385cc8ba067f4cf6df0db33fac80558f
     expose:
       - 3306
     restart: unless-stopped
